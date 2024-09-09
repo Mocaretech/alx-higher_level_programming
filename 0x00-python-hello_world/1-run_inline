@@ -1,2 +1,2 @@
 #!/bin/bash
-print("This is addition of two numbers: {10+23}")
+python3 -c "$PYCODE"
