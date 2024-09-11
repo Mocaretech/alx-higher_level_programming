@@ -4,4 +4,4 @@ def uppercase(str):
         if ord(m) >= 65 and ord(m) <= 90:
             print('{}'.format(True))
         else:
-            print ('{}'.format(False))
+            print('{}'.format(False))
