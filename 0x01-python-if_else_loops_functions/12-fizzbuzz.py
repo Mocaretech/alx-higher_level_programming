@@ -6,8 +6,8 @@ def fizzbuzz():
         if numb == mult_three:
             print('Fizz', end=" ")
         elif numb == mult_five:
-            print('{}'.format("Buzz"), end=" ")
+            print("Buzz", end=" ")
         elif numb == mult_three and numb == mult_five:
-            print('{}'.format("fizzbuzz"), end=" ")
+            print("fizzbuzz", end=" ")
         else:
-            print('{}'.format(numb), end=" ")
+            print('numb', end=" ")
