@@ -10,4 +10,4 @@ def fizzbuzz():
         elif numb == mult_three and numb == mult_five:
             print("fizzbuzz", end=" ")
         else:
-            print('numb', end=" ")
+            print(numb, end=" ")
