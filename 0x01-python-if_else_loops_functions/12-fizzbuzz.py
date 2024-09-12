@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 def fizzbuzz():
     for numb in range(1, 101):
-        mult_three = 3 * numb
-        mult_five = 5 * numb
+        mult_three = numb % 3
+        mult_five = numb % 5
         if numb == mult_three:
             print(Fizz, end=" ")
         elif numb == mult_five:
