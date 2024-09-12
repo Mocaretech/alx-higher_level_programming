@@ -4,7 +4,7 @@ def fizzbuzz():
         mult_three = numb % 3
         mult_five = numb % 5
         if numb == mult_three:
-            print(Fizz, end=" ")
+            print('Fizz', end=" ")
         elif numb == mult_five:
             print('{}'.format("Buzz"), end=" ")
         elif numb == mult_three and numb == mult_five:
