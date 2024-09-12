@@ -1,13 +1,11 @@
 #!/usr/bin/python3
 def fizzbuzz():
     for numb in range(1, 101):
-        mult_three = numb % 3
-        mult_five = numb % 5
-        if numb == mult_three:
+        if numb % 3 == 0 and numb % 5 == 0:
+            print('fizzbuzz', end=" ")
+        elif numb % 3 == 0:
             print('Fizz', end=" ")
-        elif numb == mult_five:
-            print("Buzz", end=" ")
-        elif numb == mult_three and numb == mult_five:
-            print("fizzbuzz", end=" ")
+        elif numb % 5 == 0:
+            print('Buzz', end=" ")
         else:
             print(numb, end=" ")
