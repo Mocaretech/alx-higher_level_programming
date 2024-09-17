@@ -4,4 +4,4 @@ def no_c(my_string):
     for char in my_string:
         if char != 'c' and char != C:
             new_string.append(char)
-    print(new_string)
+    print('{}'.format(new_string))
