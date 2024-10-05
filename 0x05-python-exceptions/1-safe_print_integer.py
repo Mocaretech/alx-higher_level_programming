@@ -5,6 +5,5 @@ def safe_print_integer(value):
         return(True)
     except (ValueError, TypeError):
         return(False)
-    Exception as glitch:
-        print("This is not a valid")
-        return (False)
+    except Exception:
+        return(False)
