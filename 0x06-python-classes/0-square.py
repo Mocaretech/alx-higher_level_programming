@@ -3,5 +3,5 @@ class Square:
     pass
 
 
-my_square=Square()
+my_square = Square()
 print(type(my_square))
