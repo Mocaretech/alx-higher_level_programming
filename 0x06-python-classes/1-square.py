@@ -4,8 +4,5 @@ class Square:
         self._size = size
 
 
-my_square = Square(1)
-try:
-    print(my_square._size)
-except TypeError:
-    return(None)
+my_square = Square(3)
+print(my_square._size)
